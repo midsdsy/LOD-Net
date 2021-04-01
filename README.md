@@ -13,8 +13,8 @@ We follow the data setting of [PraNet](https://github.com/DengPingFan/PraNet). Y
 
 #### results
 |                     |    CVC-ClinicDB    |       Kvasir       |        ETIS        |     EndoScene      |
-|        Model        |--------------------|--------------------|--------------------|--------------------|
-|                     |  mDice   |  mIoU   |  mDice   |  mIoU   |  mDice   |  mIoU   |  mDice   |  mIoU   |
+|---------------------|--------------------|--------------------|--------------------|--------------------|
+|Model                |  mDice   |  mIoU   |  mDice   |  mIoU   |  mDice   |  mIoU   |  mDice   |  mIoU   |
 |---------------------|----------|---------|----------|---------|----------|---------|----------|---------|
 | LOD_R_101_FPN_1x    |   92.6   |  86.2   |   93.9   |   88.4  |   93.8   |   88.4  |   95.7   |   91.7  |
 
