@@ -1,9 +1,4 @@
 # Learnable Oriented-Derivative Network for Polyp Segmentation
-       
-> Mengjun Cheng; Zishang Kong; Guoli Song; Jie Chen      
-     
-
-Contact: [mjcheng@stu.pku.edu.cn]. Any questions or discussions are welcomed! 
 
 ## Abstract
 
