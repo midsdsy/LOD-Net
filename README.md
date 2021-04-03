@@ -23,14 +23,14 @@ We follow the data setting of [PraNet](https://github.com/DengPingFan/PraNet). Y
 
 Our project is developed on [detectron2](https://github.com/facebookresearch/detectron2). Please follow the official detectron2 [installation](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md). All our code is under `projects/LOD-Net/`. 
 
-##Training
+## Training
 The train command line is same with detectron2:
 ```
 cd /path/to/detectron2/projects/LOD-Net/
 python train_net.py --config-file configs/LOD_R_101_FPN_1x.yaml --num-gpus 4
 ```
 
-##Testing
+## Testing
 You can use "--eval-only" parameter for testing.
 ```
 cd /path/to/detectron2/projects/LOD-Net/
