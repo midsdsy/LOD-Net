@@ -44,3 +44,17 @@ wheels/
 !/datasets/*.*
 /projects/*/datasets
 /models
+/configs/*
+!/configs/*.*
+/projects/BorderMask
+/projects/LOD-Net-ab
+/projects/LOD-Net/config/LOD_test.yaml
+ap_cal.py
+display.py
+evaluate.py
+visualization.py
+
+#others
+.circleci
+.clang-format
+.flake8
