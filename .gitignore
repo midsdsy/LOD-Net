@@ -45,7 +45,7 @@ wheels/
 /projects/*/datasets
 /models
 /configs/*
-!/configs/*.*
+!/configs/*.yaml
 /projects/BorderMask
 /projects/LOD-Net-ab
 /projects/LOD-Net/config/LOD_test.yaml

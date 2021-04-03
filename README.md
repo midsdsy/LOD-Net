@@ -25,14 +25,14 @@ Our project is developed on [detectron2](https://github.com/facebookresearch/det
 
 ##Training
 The train command line is same with detectron2:
-'''
+```
 cd /path/to/detectron2/projects/LOD-Net/
 python train_net.py --config-file configs/LOD_R_101_FPN_1x.yaml --num-gpus 4
-'''
+```
 
 ##Testing
 You can use "--eval-only" parameter for testing.
-'''
+```
 cd /path/to/detectron2/projects/LOD-Net/
 python train_net.py --config-file configs/LOD_R_101_FPN_1x.yaml --eval-only MODEL.WEIGHTS outputs/LOD_R_101_FPN_1x/model_final.pth
-'''
+```
