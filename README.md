@@ -28,9 +28,9 @@ We use the metric code of [mmSegmentation](https://github.com/open-mmlab/mmsegme
 
 ## Loss
 Total Loss
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+![image](https://github.com/midsdsy/LOD-Net/blob/master/imgs/total_loss.png)
 OD_Loss
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+![image](https://github.com/midsdsy/LOD-Net/blob/master/imgs/od_loss.png)
 
 ## Visualization 
 Here the visualization of learned oriented derivatives in instances. We chose several random pixels (too crowd to show all) in instances to show.
