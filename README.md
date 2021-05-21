@@ -22,14 +22,15 @@ We use the metric code of [mmSegmentation](https://github.com/open-mmlab/mmsegme
 |PraNet	|95.12	/90.69|	90.63	/82.87	|84.2	/72.71|	67.09/	50.48|	95.07	/90.6|
 |HarDNet|	95.32	/91.05|	90.51	/82.67|	83.91	/72.29|	58.17	/41.02	|94.44	/89.47|
 |                   |                     |                     |                    | |                     |
-|Mask R-CNN(baseline)|	92.48	/86.02	|  92.39	/85.87	|  89.74 / 81.39 |	58.64 /	41.48 |	94	/ 8.68        |
+|Mask R-CNN(baseline)|	92.48	/86.02	|  92.39	/85.87	|  89.74 / 81.39 |	58.64 /	41.48 |	94	/ 88.68        |
 | LOD_R_101_FPN_1x    |   92.6   /  86.2   |   93.9   /   88.4  |   93.8   /   88.4  |   70.03	/53.88 |	95.69	/91.73|
 
 
 ## Loss
 Total Loss
-![avatar](figs/totoal_loss.png)
-![avatar](figs/od_loss.png)
+![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+OD_Loss
+![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
 
 ## Visualization 
 Here the visualization of learned oriented derivatives in instances. We chose several random pixels (too crowd to show all) in instances to show.
