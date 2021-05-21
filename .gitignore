@@ -46,7 +46,7 @@ wheels/
 /models
 /configs/*
 !/configs/*.yaml
-/projects/BorderMasks
+/projects/BorderMask
 /projects/LOD-Net-ab
 /projects/LOD-Net/config/LOD_test.yaml
 /projects/LOD-Net/model_params.py
