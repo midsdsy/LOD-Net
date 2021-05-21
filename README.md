@@ -12,7 +12,7 @@ Gastrointestinal polyps are the main cause of colorectal cancer.  Given the poly
 We follow the data setting of [PraNet](https://github.com/DengPingFan/PraNet). You could download the datasets and process them to COCO-format for training and testing.
 
 ## Results
-We use the metric code of [mmSegmentation](https://github.com/open-mmlab/mmsegmentation) which is an open source project of OpenMMLab to calculate the mDice and mIoU, shown in seman_mask_evaluate.py. We evaluate the result of previous works based on result maps supported by [PraNet](https://github.com/DengPingFan/PraNet) (U-Net, U-Net++, SFA, PraNet) and our prediction on official model weights (HarDNet). 
+We use the metric code of [mmSegmentation](https://github.com/open-mmlab/mmsegmentation) which is an open-source project by OpenMMLab to calculate the mDice and mIoU, shown in seman_mask_evaluate.py. We evaluate the result of previous works based on result maps supported by [PraNet](https://github.com/DengPingFan/PraNet) (U-Net, U-Net++, SFA, PraNet) and our prediction on official model weights (HarDNet). 
 
 |                     |CVC-ClinicDB  |       Kvasir   |        ETIS    |  CVC-ColonDB    |     CVC-T   |
 |---------------------|--------------------|-----------------------------|----|----------------|----------|
@@ -40,7 +40,7 @@ Here the visualization of learned oriented derivatives in instances. We chose se
 Our project is developed on [detectron2](https://github.com/facebookresearch/detectron2). Please follow the official detectron2 [installation](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md). All our code is under `projects/LOD-Net/`. 
 
 ## Training
-The train command line is same with detectron2:
+The train command line is same with detectron2.
 ```
 cd /path/to/projects/LOD-Net/
 python train_net.py --config-file configs/LOD_R_101_FPN_1x.yaml --num-gpus 4
