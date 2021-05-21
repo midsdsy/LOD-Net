@@ -55,7 +55,7 @@ wheels/
 /projects/LOD-Net/vector_vis.py
 /projects/LOD-Net/vector_vis_in_border.py
 /projects/LOD-Net/seman_mask_generation_PraNet.py
-/projects/LOD-Net/lod_net/lod_head-vis.py
+/projects/LOD-Net/lod_net/lod_head_vis.py
 ap_cal.py
 display.py
 evaluate.py
