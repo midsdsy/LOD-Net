@@ -61,7 +61,7 @@ display.py
 evaluate.py
 visualization.py
 
-!/figs
+!/imgs/*
 
 #others
 .circleci
