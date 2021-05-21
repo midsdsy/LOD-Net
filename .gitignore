@@ -49,6 +49,11 @@ wheels/
 /projects/BorderMask
 /projects/LOD-Net-ab
 /projects/LOD-Net/config/LOD_test.yaml
+/projects/LOD-Net/model_params.py
+/projects/LOD-Net/chosen_points_vis.py
+/projects/LOD-Net/tool
+/projects/LOD-Net/vector_vis.py
+/projects/LOD-Net/vector_vis_in_border.py
 ap_cal.py
 display.py
 evaluate.py
