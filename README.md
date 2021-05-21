@@ -14,7 +14,7 @@ We follow the data setting of [PraNet](https://github.com/DengPingFan/PraNet). Y
 ## Results
 We use the metric code of [mmSegmentation](https://github.com/open-mmlab/mmsegmentation) which is an open source project of OpenMMLab to calculate the mDice and mIoU, shown in seman_mask_evaluate.py. We evaluate the result of previous works based on result maps supported by [PraNet](https://github.com/DengPingFan/PraNet) (U-Net, U-Net++, SFA, PraNet) and our prediction on official model weights (HarDNet). 
 
-|                     |CVC-ClinicDB  |       Kvasir   |        ETIS    |  ETIS    |     EndoScene   |
+|                     |CVC-ClinicDB  |       Kvasir   |        ETIS    |  ColonDB    |     EndoScene   |
 |---------------------|--------------------|-----------------------------|----|----------------|----------|
 |Model                |  mDice    /  mIoU   |  mDice   /  mIoU   |  mDice   /  mIoU  |  mDice   /  mIoU  |  mDice   /  mIoU   |
 |U-Net++	|78.57/	64.7	|73.54	/58.15|	45.11/	29.12|	31.60/	18.76	|63.96/	47.02|
