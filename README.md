@@ -33,7 +33,10 @@ OD_Loss
 ![image](https://github.com/midsdsy/LOD-Net/blob/master/imgs/od_loss.png)
 
 ## Visualization 
-Here the visualization of learned oriented derivatives in instances. We chose several random pixels (too crowd to show all) in instances to show.
+Here the visualization of learned oriented derivatives in instances. We chose several random pixels (too crowd to show all) in instances to show. The arrows point from the current points to the sampled points. The length of the arrows indicate the value of the predicted oriented derivatives. Hence, the end points of the arrow are not the sampled points.
+![image](https://github.com/midsdsy/LOD-Net/blob/master/imgs/01.png)
+![image](https://github.com/midsdsy/LOD-Net/blob/master/imgs/02.png)
+![image](https://github.com/midsdsy/LOD-Net/blob/master/imgs/03.png)
 
 ## Installation
 
