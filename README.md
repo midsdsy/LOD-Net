@@ -31,8 +31,8 @@ Compare with baseline on metric of AP
 |                     |CVC-ClinicDB  |       Kvasir   |        ETIS    |  CVC-ColonDB    |     CVC-T   |
 |---------------------|--------------------|-----------------------------|----|----------------|----------|
 |Model                |  AP_bbox   /  AP_mask   | AP_bbox   /  AP_mask    |  AP_bbox   /  AP_mask   |  AP_bbox   /  AP_mask   |  AP_bbox   /  AP_mask    |
-| Mask R-CNN	|75.5/	76.0	|63.6	/67.1	|50.0	/51.6|	48.6/	51.6|	62.8	/67.4 |
-|Ours|	76.7	/78.5|	69.3	/71.1|	52.6	/54.9	|53.2	/56.3|	63.3	/68.4|
+| Mask R-CNN(baseline)	|75.5/	76.0	|63.6	/67.1	|50.0	/51.6|	48.6/	51.6|	62.8	/67.4 |
+|LOD_R_101_FPN_1x|	76.7	/78.5|	69.3	/71.1|	52.6	/54.9	|53.2	/56.3|	63.3	/68.4|
 
 ## Loss
 Total Loss
