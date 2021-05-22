@@ -14,6 +14,7 @@ We follow the data setting of [PraNet](https://github.com/DengPingFan/PraNet). Y
 ## Results
 We use the metric code of [mmSegmentation](https://github.com/open-mmlab/mmsegmentation) which is an open-source project by OpenMMLab to calculate the mDice and mIoU, shown in seman_mask_evaluate.py. We evaluate the result of previous works based on result maps supported by [PraNet](https://github.com/DengPingFan/PraNet) (U-Net, U-Net++, SFA, PraNet) and our prediction on official model weights (HarDNet). 
 
+
 |                     |CVC-ClinicDB  |       Kvasir   |        ETIS    |  CVC-ColonDB    |     CVC-T   |
 |---------------------|--------------------|-----------------------------|----|----------------|----------|
 |Model                |  mDice    /  mIoU   |  mDice   /  mIoU   |  mDice   /  mIoU  |  mDice   /  mIoU  |  mDice   /  mIoU   |
@@ -25,6 +26,13 @@ We use the metric code of [mmSegmentation](https://github.com/open-mmlab/mmsegme
 |Mask R-CNN(baseline)|	92.48	/86.02	|  92.39	/85.87	|  89.74 / 81.39 |	58.64 /	41.48 |	94	/ 88.68        |
 | LOD_R_101_FPN_1x    |   92.6   /  86.2   |   93.9   /   88.4  |   93.8   /   88.4  |   70.03	/53.88 |	95.69	/91.73|
 
+Compare with baseline on metric of AP
+
+|                     |CVC-ClinicDB  |       Kvasir   |        ETIS    |  CVC-ColonDB    |     CVC-T   |
+|---------------------|--------------------|-----------------------------|----|----------------|----------|
+|Model                |  AP_bbox   /  AP_mask   | AP_bbox   /  AP_mask    |  AP_bbox   /  AP_mask   |  AP_bbox   /  AP_mask   |  AP_bbox   /  AP_mask    |
+| Mask R-CNN	|75.5/	76.0	|63.6	/67.1	|50.0	/51.6|	48.6/	51.6|	62.8	/67.4 |
+|Ours|	76.7	/78.5|	69.3	/71.1|	52.6	/54.9	|53.2	/56.3|	63.3	/68.4|
 
 ## Loss
 Total Loss
